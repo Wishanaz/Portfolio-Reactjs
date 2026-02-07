@@ -6,16 +6,24 @@
 html,body,#root{
     height: 100%;
     width: 100%;
-
+    overflow: hidden;
 }
 
 main {
-  min-height: 100vh; // viewport height
+  height: 100vh;     /* not min-height */
   width: 100%;
-  background-image: url("/wallpaper1.jpg");
+  position: relative;  /* VERY IMPORTANT */
+  
+  background-image: url("/wallpaper.jpg");
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
 }
-
+.desktop {
+  position: absolute;
+  top: 35px;   /* below navbar */
+  left: 0;
+  right: 0;
+  bottom: 80px;  /* leave space for dock if needed */
+}
 
