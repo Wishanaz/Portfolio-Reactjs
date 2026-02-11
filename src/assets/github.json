@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI4sWcwxWBMn4TWRR4OzI4VHbZAsWzkwCmWA&s",
+    "title": "Mac OS UI Clone",
+    "description": "A draggable and resizable Mac OS inspired interface built using React.",
+    "fullDescription": "This project recreates the Mac OS interface using React and SCSS. It supports draggable and resizable windows, interactive icons, and mimics the native look and feel of Mac OS. Perfect for practicing UI/UX and React state management.",
+    "tags": ["React", "SCSS", "UI Design", "react-rnd"],
+    "repoLink": "https://github.com/yourusername/macos-ui-clone",
+    "demoLink": "https://macos-ui-demo.vercel.app"
+  },
+  {
+    "id": "2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIuREv0T8VLOaQDsiFAeSe4kDiSuY0Pk7QGQ&s",
+    "title": "Notes REST API",
+    "description": "Backend API for creating, updating and deleting notes using Express and MongoDB.",
+    "fullDescription": "This backend project uses Express.js and MongoDB to create a RESTful API for note management. It supports CRUD operations: create, read, update, delete notes. Authentication and validation can be added for security. A great practice for backend fundamentals and connecting APIs to databases.",
+    "tags": ["Node.js", "Express", "MongoDB", "REST API"],
+    "repoLink": "https://github.com/yourusername/notes-api",
+    "demoLink": "https://notes-api.onrender.com"
+  },
+  {
+    "id": "3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvD6eVjdzqJEjXWXQrUBaHsIpCBcNKzGFqaQ&s",
+    "title": "Custom Cursor Animation",
+    "description": "Interactive custom cursor with smooth trailing ring using requestAnimationFrame.",
+    "fullDescription": "This project creates a smooth, interactive custom cursor using JavaScript and requestAnimationFrame. It demonstrates performance optimization, DOM manipulation, and animation techniques. The cursor can follow the mouse with trailing effects and reacts to user interactions.",
+    "tags": ["JavaScript", "Animation", "Performance"],
+    "repoLink": "https://github.com/yourusername/custom-cursor",
+    "demoLink": null
+  },
+  {
+    "id": "4",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTxpNgnqsFdVZ8aUbeNJv9iXf4Spmlx40Ofg&s",
+    "title": "Portfolio Website",
+    "description": "Personal portfolio website showcasing projects and interactive UI elements.",
+    "fullDescription": "A personal portfolio website built with React, highlighting projects, skills, and achievements. Includes interactive UI components, smooth scrolling, and responsive design. This project demonstrates frontend skills and attention to visual design.",
+    "tags": ["React", "Responsive Design", "Frontend"],
+    "repoLink": "https://github.com/yourusername/portfolio",
+    "demoLink": null
+  },
+  {
+    "id": "5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHHgXyMvIDs5DllS0EUmDXNkR3f8QcGZFigQ&s",
+    "title": "Task Manager App",
+    "description": "Full stack task manager with authentication and CRUD operations.",
+    "fullDescription": "This full-stack task manager app allows users to create, update, delete, and manage tasks. Built with React for the frontend and Node.js + MongoDB for the backend. Includes JWT authentication for user accounts and demonstrates full-stack CRUD operations.",
+    "tags": ["React", "Node.js", "MongoDB", "JWT"],
+    "repoLink": "https://github.com/yourusername/task-manager",
+    "demoLink": "https://task-manager-demo.vercel.app"
+  },
+  {
+    "id": "6",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLVvz1qDpOR5OqOb__JqTdA9Wo6vlG1t8PJA&s",
+    "title": "E-Commerce UI",
+    "description": "Frontend e-commerce interface with filtering and cart functionality.",
+    "fullDescription": "A frontend-only e-commerce interface built with React and Redux. Features product listing, filtering, and a shopping cart UI. Perfect for practicing state management, component design, and responsive UI for online stores.",
+    "tags": ["React", "Redux", "CSS", "E-Commerce"],
+    "repoLink": "https://github.com/yourusername/ecommerce-ui",
+    "demoLink": null
+  }
+]

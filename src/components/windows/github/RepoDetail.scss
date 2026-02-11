@@ -1,0 +1,86 @@
+.repo-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 90%;
+  overflow: hidden; // hide overflowing content in container
+
+  .back-btn {
+    align-self: flex-start;
+    margin-bottom: 2rem;
+    padding: 6px 10px;
+    background: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background: #ddd;
+    }
+  }
+
+  .repo-main {
+    overflow-y: auto; // scroll only this section
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 6px; // prevent content from hiding behind scrollbar
+    scrollbar-width: thin; // Firefox
+    scrollbar-color: #6a6161 #171414;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 0.2rem solid rgb(193, 185, 185);
+    }
+
+    h2 {
+      margin: 4px 0;
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.5; // easier to read for long text
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+
+      span {
+        background: #403b3b;
+        padding: 3px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        color: #fff;
+      }
+    }
+
+    .links {
+      display: flex;
+      gap: 10px;
+
+      a {
+        text-decoration: none;
+        padding: 6px 12px;
+        background: #0366d6;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 12px;
+
+        &:hover {
+          background: #024c9c;
+        }
+      }
+    }
+  }
+
+  
+}
+
+
+

@@ -1,28 +1,37 @@
-import React from 'react'
-import { Rnd } from 'react-rnd'
-import "./window.scss"
+import React from "react";
+import { Rnd } from "react-rnd";
+import "./window.scss";
 
-const MacWindow = ({children}) => {
+const MacWindow = ({ children }) => {
   return (
-    <Rnd default={{ x: 50, y: 50, width: 400, height: 200 }}
-  bounds="parent">
-        <div className="window">
-            <div className="nav">
-                <div className="dots">
-                    <div className="dot red"></div>
-                    <div className="dot yellow"></div>
-                    <div className="dot green"></div>
-                </div>
-                <div className="title">
-                    <p>wish\wishcash</p>
-                </div>
-            </div>
-            <div className="main-content">
-                {children}
-            </div>
+    <Rnd
+      default={{
+        width: "40vw",
+        height: "62vh",
+        x: 300,
+        y: 100,
+      }}
+      minWidth={600} // minimum width in px
+      minHeight={300} // minimum height in px
+      maxWidth={"70vw"} // optional max width
+      maxHeight={"80vh"} // optional max height
+      bounds="parent" // keep window inside parent container
+    >
+      <div className="window">
+        <div className="nav">
+          <div className="dots">
+            <div className="dot red"></div>
+            <div className="dot yellow"></div>
+            <div className="dot green"></div>
+          </div>
+          <div className="title">
+            <p>wish\wishcash</p>
+          </div>
         </div>
+        <div className="main-content">{children}</div>
+      </div>
     </Rnd>
-  )
-}
+  );
+};
 
-export default MacWindow
+export default MacWindow;

@@ -1,7 +1,9 @@
-import "./app.scss"
-import Dock from "./components/Dock"
-import Nav from "./components/Nav"
-import MacWindow from "./components/windows/MacWindow"
+import "./app.scss";
+import Dock from "./components/Dock";
+import Nav from "./components/Nav";
+import Github from "./components/windows/github/Github";
+
+// import MacWindow from "./components/windows/MacWindow"
 
 const App = () => {
   return (
@@ -10,15 +12,13 @@ const App = () => {
         <Nav />
 
         <div className="desktop">
-          <MacWindow >
-            <h1>HEYY</h1>
-          </MacWindow>
+          <Github />
         </div>
 
         <Dock />
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
