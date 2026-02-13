@@ -1,0 +1,56 @@
+/**
+ * FILE: wisha.profile
+ * AUTHOR: Wisha Naz
+ * ROLE: Creative Full-Stack Developer
+ * STATUS: Building. Learning. Evolving.
+ */
+
+// ----------------------------------------- 
+// SYSTEM PROFILE
+// -----------------------------------------
+
+const Developer = {
+  name: "Wisha Naz",
+  pronouns: "she/her",
+  location: "Remote / Global",
+  
+  focus: [
+    "Interactive UI Systems",
+    "Full-Stack Architecture",
+    "Clean & Maintainable Code",
+    "Design + Logic Integration"
+  ],
+
+  frontend: ["React.js", "JavaScript", "SCSS"],
+  backend: ["Node.js", "Express.js", "MongoDB"],
+  tools: [
+  "Git","GitHub","VS Code","Figma","Postman","Docker",
+  
+]
+};
+
+// -----------------------------------------
+// CURRENT MISSION
+// -----------------------------------------
+
+function build() {
+  return `
+  Creating experiences that are not just functional,
+  but structured with intention.
+  
+  Learning advanced JavaScript deeply.
+  Designing systems that scale.
+  Blending aesthetics with engineering logic.
+  `;
+}
+
+// -----------------------------------------
+// TERMINAL STATUS
+// -----------------------------------------
+
+$ user --status
+> Mode: Growth
+> Discipline: Daily Practice
+> Vision: Full-Stack Engineer with Design Intelligence
+> Energy: Consistent
+> Ready to build.

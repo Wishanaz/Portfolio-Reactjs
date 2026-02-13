@@ -2,6 +2,8 @@ import "./app.scss";
 import Dock from "./components/Dock";
 import Nav from "./components/Nav";
 import Github from "./components/windows/github/Github";
+import Note from "./components/windows/Note";
+import Resume from "./components/windows/Resume";
 
 // import MacWindow from "./components/windows/MacWindow"
 
@@ -13,6 +15,8 @@ const App = () => {
 
         <div className="desktop">
           <Github />
+          <Note/>
+          <Resume/>
         </div>
 
         <Dock />

@@ -25,9 +25,7 @@
     flex-direction: column;
     gap: 12px;
     padding-right: 6px; // prevent content from hiding behind scrollbar
-    scrollbar-width: thin; // Firefox
-    scrollbar-color: #6a6161 #171414;
-
+   
     img {
       width: 100%;
       object-fit: cover;
