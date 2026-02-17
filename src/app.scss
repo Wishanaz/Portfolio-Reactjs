@@ -18,12 +18,13 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.desktop {
-  position: absolute;
-  top: 35px;   /* below navbar */
-  left: 0;
-  right: 0;
-  bottom: 80px;  /* leave space for dock if needed */
+  
+  .desktop {
+    position: absolute;
+    top: 35px;   /* below navbar */
+    left: 0;
+    right: 0;
+    bottom: 80px;  /* leave space for dock if needed */
+  }
 }
 

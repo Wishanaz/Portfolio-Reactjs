@@ -1,11 +1,12 @@
 import "./app.scss";
+
 import Dock from "./components/Dock";
 import Nav from "./components/Nav";
 import Github from "./components/windows/github/Github";
 import Note from "./components/windows/Note";
 import Resume from "./components/windows/Resume";
+import Spotify from "./components/windows/Spotify";
 
-// import MacWindow from "./components/windows/MacWindow"
 
 const App = () => {
   return (
@@ -14,9 +15,11 @@ const App = () => {
         <Nav />
 
         <div className="desktop">
-          <Github />
+
+          <Github />  
           <Note/>
           <Resume/>
+          <Spotify/>
         </div>
 
         <Dock />
